@@ -1,113 +1,88 @@
-Q
-Название скилла=|Cff00FFFF天狼星(|Cffffcc00Q)
-Описание скилла=|CffFFFF00蓄力1.3秒后向周围刺出冰锥，蓄力期间自身无法被选中，对周围的敌人造成智力值*28的伤害并冻结3秒。
-|Cff00ff00
-技能类型：无目标
-伤害类型：魔法伤害
-防御等级：LV3
-影响范围：450
-技能冷却：16s
+Q - Icicle Impale
 
+Description: After a 1.3 second charge time, pierce the surrounding area with icicles, dealing INTx28 damage. During the charge time, Len cannot be damaged or stunned by certain abilities.
+Skill type: Instant cast
+Damage type: Magic
+Skill level: 3
+Affected area: 450
+Cooldown: 16s
 
-W
-Название скилла=|Cff00FFFF华尔兹(|Cffffcc00W)
-Описание скилла=|CffFFFF00单脚点地回旋身体，每0.2秒对周围敌人造成智力值*3的伤害和45％的减速效果，减速持续2秒，技能持续6秒，再次激活会中断该技能。|Cff00ff00
-技能类型：无目标
-伤害类型：魔法伤害
-防御等级：LV2
-影响范围：400
-技能冷却：18s
+W - Waltz
 
+Description: Once activated, Len will begin to spin. While spinning, Len damages nearby enemies for INTx3 and slows for 45% every 0.2 seconds and protects herself with a LVL 2 shield. The slow lasts for 2 seconds and the spin lasts for 6 seconds. Casting W while spinning will cancel the spell.
+Skill type: Instant cast
+Damage type: Magic
+Shield level: 2
+Affected area: 400
+Cooldown: 18s
 
-E
-Название скилла=|Cff00FFFF白鸟星(|Cffffcc00E)
-Описание скилла=|CffFFFF00在脚下制造跳台向前方回旋跳跃，将路径上的敌人带入空中并造成多段伤害，每0.02秒会造成敏捷值*0.3的伤害和1秒眩晕。到达最大距离后将敌人击飞500码并造成敏捷值*20的伤害和2秒眩晕。
-|Cff00ff00
-技能类型：地面目标
-伤害类型：物理伤害
-物理等级：LV2
-施法距离：1200
-最大距离：1200
-技能冷却：18s
+E - Snow Dash
 
-R
-Название скилла=|Cff00FFFF梦幻泡影(|Cffffcc00R)
-Описание скилла=|CffFFFF00蓄力0.6秒后向前方放出泡沫，使穿过的敌人沉睡4秒，但受到伤害会立刻醒来。|Cffff6800/泡沫存在时若再次激活，会瞬间移动至泡沫位置隐身3秒，并在原位置制造持续3秒的幻象，幻象受到伤害就会消失。
-|Cff00ff00
-技能类型：地面目标/无目标
-施法距离：2800
-最大距离：2800
-技能冷却：29s
+Description: Dash in the targeted direction, dragging any enemy caught in your path with you. During the dash, enemies take AGIx0.3 damage every 0.02 seconds and receive a 1 second stun (if they aren't dragged with you). After reaching maximum dash distance, deal AGIx20 damage to all enemies and stun for 2 seconds.
+Skill type: Ground targeted
+Damage type: Physical
+Skill level: 2
+Casting Range: 1200
+Maximum Dash Distance: 1200 
+Cooldown: 18s
 
+R - Dream Bubble
 
-R-R
-Название скилла=|Cff00FFFF梦幻泡影(|Cffffcc00R)
-Описание скилла=|CffFFFF00蓄力0.6秒后向前方放出泡沫，使穿过的敌人沉睡4秒，但受到伤害会立刻醒来。泡沫存在时若再次激活，会瞬间移动至泡沫位置隐身3秒，并在原位置制造持续3秒的幻象，幻象受到伤害就会消失。|Cffff6800/发动“天狼星”会停止泡沫的移动，并在蓄力后瞬间移动至泡沫处进行释放，随后泡沫将会消散。
-|Cff00ff00
-技能类型：地面目标/无目标
-施法距离：2800
-最大距离：2800
-技能冷却：29s
+Description: After a 0.6 second cast time, shoot out a projectile in the targeted direction that puts any enemies in it's path to sleep for 4 seconds (slept enemies wake up when they receive any damage). If R is casted again while the projectile is still flying, Len will teleport to the projectile's currant  position and go invisible for 3 seconds while creating a "fake" in her old position (the fake will vanish if it receives any damage).
+Skill type: Ground targeted/instant cast
+Cast Distance: 2800
+Projectile Maximum Range: 2800
+Cooldown: 29s
 
+D - Butterfly Dream
 
-D
-Название скилла=|Cff00FFFF蝴蝶之梦(|Cffffcc00D)
-Описание скилла=|CffFFFF00将“莲”积极主动的人格具现出来的产物，本身为“莲”不被使用的一面。
-|Cffff6800　
-  [被动]：自身死亡后不会留下尸体。
-　[主动]：快速向前方奔跑并穿过路径上的单位，并且会依次产生3个残影回旋踢出，每个残影会将前方的敌人击飞560码并造成敏捷值*6的伤害和1.5秒眩晕。|Cffff0000
-|Cff00ff00
-技能类型：地面目标
-伤害类型：物理伤害
-施法距离：950
-最大距离：950
-技能冷却：19s
+Description: Quickly dash in the targeted direction, creating 3 afterimages behind you that knock enemies forward in the direction of the dash for 560 units, dealing AGIx6 damage (each afterimage deals it's own knockback and damage).
+Skill type: Ground targeted
+Damage type: Physical
+Casting Range: 950
+Maximum Dash Range: 950 
+Cooldown: 19s
 
+F - Pure White Bloom
 
+Description: After casting, Len jumps back slightly and throws icicles at the targeted area, freezing enemies in the affected area for 1 second and dealing INTx3 for every ice shard that lands (maximum DMG = 1743). The affected area becomes frozen, slowing all enemies in it for 70% and after a 3 second period, everyone still in the area will take INTx20 damage and become frozen for 2 seconds.
+Skill type: Ground Targeted
+Damage type: Magic Damage
+Skill level: 1
+Casting Range: 1000
+Affected Area: 400
+Cooldown: 22s 
 
-T
-Название скилла=|Cff00FFFF化猫(|Cffffcc00T)
-Описание скилла=|CffFFFF00身为莲“不被使用的一面”，拥有将梦境具现化的能力，通过梦境来干扰敌人的判断。
-|Cffff6800　
-  [被动]：猫形态下移动速度最大化并获得技能“猫扑”。
-　[主动]：发动后1秒内使用Q/E/R/D技能将不会进入冷却，并制造1个幻象代为发动该技能，但不会产生任何伤害与效果，幻象持续4秒，受到伤害就会消失。制造幻象时自身会隐身4秒并化作白猫，效果持续8秒。|Cffff0000
-|Cff00ff00
-技能类型：无目标
-技能冷却：25s
+T - Fake Out
 
-T-Q
-Название скилла=|Cff00FFFF猫扑(|Cffffcc00Q)
-Описание скилла=|CffFFFF00瞬间变为人形扑向前方，对击中的敌人造成敏捷值*18的伤害和2秒眩晕。
-|Cff00ff00
-技能类型：地面目标
-伤害类型：物理伤害
-物理等级：LV1
-施法距离：800
-最大距离：800
-技能冷却：10s
+Description: For 1 second after activation, casting Q, E, R or D will fake the casting of the selected skill, as well as put you into your cat form (T-Q). The faked skill plays it's animation but has none of it's effects, it also does not put the faked skill on cooldown. The faked skill is performed by a fake Len that dissappears after receiving any damage. The fake lasts for 4 seconds.
+Skill type: Instant Cast
+Cooldown: 25s
 
+T-Q - Cat Pounce
 
-G
-Название скилла=|CffFF0000【觉醒】|Cff00ffff真夏的白雪(|Cffffcc00G)
-Описание скилла=|CffFFFF00如其名所说，夏天出现的到地平线为止都被雪覆盖的世界，拥有呼来明确的噩梦将其实体化的力量，技能持续18秒。|Cffff0000/若自身死亡或离开结界会提前结束该技能。
-|Cffff6800　
-  ①：发动时会在3秒内冻结周围的敌人。
-　②：结界会抵挡敌方的技能并阻止除自身以外的单位用任何方式进出。
-　③：结界内的敌人每秒会受到智力值*3的伤害并减少60％的移动速度。
-　④：自身若发动“华尔兹”/“化猫”以外的技能，会在技能结束时隐身3秒。
-|Cff00ff00
-技能类型：无目标
-伤害类型：魔法伤害
-防御等级：LV4
-影响范围：1600
-技能冷却：200s
+Description: After faking a skill with T, Len becomes an invisible cat with maximum movement speed and 1 skill for 8 seconds. The skill is a ground targeted dash that deals INTx18 damage and stuns for 2 seconds to the first target it collides with.
+Skill type: Ground targeted
+Damage type: Physical
+Skill level: 1 
+Casting Range: 800
+Maximum Distance: 800
+Cooldown: 10s
 
+G - Frozen World
 
-G2
-Название скилла=|CffFF0000【奥义】|Cff00ffff终焉的世界(|Cffffcc00W)
-Описание скилла=|CffFFFF00发动后0.5秒内若受到单次超过400点的伤害，瞬间移动至敌人身后将固有结界与周围的敌人压缩至掌心，随后破坏固有结界对吸入的敌人造成智力值*60的伤和3秒眩晕。
-|Cff00ff00
-技能类型：无目标
-伤害类型：魔法伤害
-影响范围：2000
-技能冷却：200s
+Description: After a ~5 second channel time (during which you can't be targeted), freeze the surrounding area, creating an arena that can't be left by those in it and can't be entered by those outside of it in any way. Every enemy in the arena takes INTx3 damage every second and become slowed by 60% for the entire 18 second duration. Casting any spell (except W and T-Q) will make you invisible for 3 seconds. The spell ends instantly if Len leaves or is pushed out of the arena.
+Skill type: Instant cast
+Damage type: Magic
+Skill level: 4
+Affected Area: 1600
+Cooldown: 200s
+
+G2 - The End of the World
+
+Description: After activation, if you receive any more than 400 damage in a 0.5s timeframe, instantly teleport behind the damage source and force them as well as any nearby enemy into a small bubble. At the end of the cast, all enemies are expelled from the bubble and thrown into random directions, dealing INTx60 damage and stunning for 3 seconds.
+Skill type: Instant Cast
+Damage type: Magic
+Succion Radius: 2000
+Cooldown: 200s
+
