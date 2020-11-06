@@ -1,131 +1,151 @@
-[Q1] 闪鞘·七夜
-快速冲向敌人进行切割，对敌人造成敏捷值*8的伤害和1秒眩晕。
-[七夜暗杀术]：连击数达到20点后追加强化。对敌人额外造成10％缺失生命值的伤害。
-技能类型：单位目标
-伤害类型：物理伤害
-物理等级：LV2
-施法距离：750
-技能冷却：3.5s
+Q1 - Seven Nights Slash
 
-[Q2] 闪走·一鹿
-单脚发力向前飞踢，将敌人踢起后再次踢落，对敌人造成敏捷值*12的伤害和2秒眩晕。　
-[七夜暗杀术]：连击数达到20点后追加强化。瞬间移动至最大距离处反向飞踢。
-技能类型：地面目标
-伤害类型：物理伤害
-物理等级：LV2
-施法距离：1000
-最大距离：1000
-技能冷却：10s
+Description: Dash through the targeted enemy, dealing AGIx8 damage and stunning for 1 second.
+Additional info: If Nanaya has 20 or more mana, inflicts an additional 10% of the targets missing health as damage.
+Skill type: Single target
+Damage type: Physical
+Skill level: 2
+Cast range: 750
+Cooldown: 3.5s
 
-[W] 闪走·水月
-迅速后跳800码，使Q技能变更为“闪走·一鹿”并刷新“闪走·名月”的冷却时间，后跳期间自身无法被选中。
-[七夜暗杀术]：连击数达到20点后追加强化。后跳时会向前方掷出短刀，击中敌人后会瞬间扭转身体，瞬间移动至敌人身后并反向斩击，对穿过的敌人造成敏捷值*15的伤害和1.5秒眩晕。
-技能类型：地面目标
-伤害类型：物理伤害
-物理等级：LV1（短刀）/LV2（斩击）
-施法距离：全图
-最大距离：1400（短刀）/800（斩击）
-技能冷却：10s
+Q2 - Combination Strike
 
-[E] 闪走·名月
-以鬼魅的步伐最多移动750码，使Q技能变更为“闪鞘·七夜”并隐身1.5秒。　
-[七夜暗杀术]：连击数达到20点后追加强化。冲刺期间自身无法被选中。
-技能类型：地面目标
-施法距离：全图
-技能冷却：7s
+Description: Dash in the targeted direction, kicking the first target you collide with upwards and back down, dealing AGIx12 damage and stunning for 2 seconds.
+Additional info: If Nanaya has 20 or more mana, upon casting, instantly teleport to the maximum distance of the dash and continue the dash from the opposite direction.
+Skill type: Ground targeted
+Damage type: Physical
+Skill level: 2
+Cast range: 1000
+Maximum dash distance: 1000
+Cooldown: 10s
 
-[R] 闪鞘·八穿
-蓄力0.6秒后向前方掷出短刀，击中后迅速移动至敌人上空并反向跳跃800码，对敌人造成敏捷值*5的伤害和1.5秒眩晕。
-  [闪鞘·四辻]：当连击数达到15点后追加攻击，连续挥动短刀对敌人造成敏捷值*6的伤害和1.5秒眩晕。
-　[闪走·六兔]：当连击数达到20点后追加攻击，单脚发力踢飞敌人并造成敏捷值*8的伤害和1.5秒眩晕。
-　[闪鞘·迷狱沙门]：当连击数达到25点后追加攻击，配合残影持刀跃向前方，对触碰的敌人造成敏捷值*12的伤害和2秒眩晕，跳跃期间自身无法被选中。
-　[极死·七夜]：当连击数达到30点后改变效果，配合短刀瞬间拗断敌人的颈部并禁用“令咒”，将敌人直接斩杀并清空所有连击数。
-技能类型：地面目标
-伤害类型：物理伤害
-物理等级：LV1
-施法距离：1600
-最大距离：1600/850
-技能冷却：10s
+W - Fade Away
 
-[D1] 闪鞘·八点冲
-快速冲向前方进行斩击，对击中的敌人造成敏捷值*8的伤害和1秒眩晕。击中敌人或到达最大距离后高速挥动短刀，将前方的敌人持续击退并最多造成敏捷值*10的伤害和1秒眩晕。/当连击数达到10点后该技能变更为“蜘蛛步”。|Cffff0000
-技能类型：地面目标
-伤害类型：物理伤害
-物理等级：LV2
-防御等级：LV2
-施法距离：700
-最大距离：700
-技能冷却：12s
+Description: Upon casting, instantly dash 800 units backwards. Additionally replaces Q1 with Q2 and resets the cooldown of E. During the backwards jump, you cannot be targeted.
+Additional info: If Nanaya has 20 or more mana, when dashing backwards you will also throw a knife in the direction you were targeting. If it hits an enemy, Nanaya will instantly teleport behind them and slash at them, after which he will dash back to the position he was in before the teleport. The enemy will also receive AGIx15 damage and become stunned for 1.5 seconds. 
+Skill type: Ground targeted
+Damage type: Physical
+Skill level: 1 (knife)/ 2 (slash)
+Cast range: Global
+Maximum range: 1400 (knife)/ 800(slash)
+Cooldown: 10s
 
-[D2] 蜘蛛步
-身体下伏隐身1.5秒，期间可通过右键进行1次最多900码的瞬移。|Cffff6800/当连击数达到20点后该技能变更为“净眼”。
-技能类型：无目标
-技能冷却：8s
+E - Vanishing Moon
 
-[D3] 净眼
-七夜家族所持有的魔眼，可将目视对方的情感和心理以烟雾或颜色具现出来。
-  ①：“闪鞘·八穿”会制造残影进行追击。
-　②：显示自身周围的隐形单位并强化Q/W/E技能。
-　③：对血量百分比低于自身的敌人会增加50％所造成的伤害。
-　④：发动任意技能后可在0.5秒内通过右键进行1次最多350码的瞬移。
-技能类型：被动效果
-影响范围：1500
+Description: Instantly dash up to 750 units and become invisible for 1.5 seconds. Additionally changes Q2 to Q1 (if you already have Q1, it doesn't change it).
+Additional info: If Nanaya has 20 or more mana, he becomes untargetable during the dash.
+Skill type: Ground targeted
+Cast range: Global
+Cooldown: 7s
 
-[F1] 闪鞘·瞬狱
-迅速向前方进行斩击，对穿过的敌人造成敏捷值*14的伤害和2秒眩晕。斩击结束时可再次激活，使自身瞬间返回原位置。/当连击数达到15点后该技能变更为“闪鞘·面影糸”。
-技能类型：地面目标
-伤害类型：物理伤害
-冲刺等级：LV2
-施法距离：1400
-最大距离：1400
-技能冷却：16s
+R - True Speed
 
-[F2] 闪鞘·面影糸
-连续挥动短刀并配合残影进行压制，对敌人造成敏捷值*16的伤害和1.5秒眩晕。/当连击数达到25点后该技能变更为“闪鞘·迷狱沙门”。
-技能类型：单位目标
-伤害类型：物理伤害
-防御等级：LV2
-施法距离：150
-技能冷却：24s
+Description: After a 0.6 second delay, throw a knife in the targeted direction. If it hits an enemy, instantly teleport on top of them and afterwards 800 units behind them, dealing AGIx5 damage and stunning for 1.5 seconds.
+At 15 mana: Do an additional attack that deals AGIx6 damage (Nanaya is locked in an animation for the duration of the attack, making him an easy target).
+16-19 mana: After the 15 mana attack, perform an extra kick that deals AGIx8 damage (Nanaya is locked in an animation for the duration of the attack, making him an easy target).
+20-29 mana: Removes the lock-in animation for the previous attacks (an untargetable clone performs the moves in your stead). The clone additionally performs a third move (similar to F3) that deals AGIx12 damage and stuns for 2 seconds in a small AOE around the hit target.
+At 30 mana: Instantly kills the hit target, reducing your mana back to 0.
+Skill type: Ground targeted
+Damage type: Physical
+Skill level: 1
+Cast range: 1600
+Knife/Dash range: 1600/850
+Cooldown: 10s
 
-[F3] 闪鞘·迷狱沙门
-迅速后跳并减缓体感时间，使目标点周围的敌人减少80％的移动速度，减速效果持续1.75秒。随后配合残影持刀跃向前方，跳跃期间自身无法被选中，并在接触敌人的瞬间将其处刑，对敌人造成敏捷值*18的伤害和2秒眩晕。
-技能类型：地面目标
-伤害类型：物理伤害
-施法距离：450
-最大距离：1000
-影响范围：700/400
-技能冷却：36s
+D1 - Endless Slashing
 
-[T] 杀人鬼夜行
-由“远野志贵”的噩梦所具现化的存在，代表着“远野志贵”的另一种可能性。
-  ①：取消自身施法前后摇，并且死亡后不会留下尸体。
-　②：自身对敌人造成伤害时会获得1点连击数，触发间隔0.05秒。若超过5秒没有对敌人造成伤害，将清空所有连击数。
-　③：夜晚时，自身增加15点敏捷值与200点移动速度，并且每次击杀敌方英雄会刷新所有技能的冷却时间。
-技能类型：被动效果
+Description: Dash in the targeted direction, slashing the first enemy/enemies you collide with, dealing AGIx8 damage and stunning for 1 second. After hitting an enemy or reaching the maximum dash distance, begin slashing everyone in your path, knocking them back and dealing up to AGIx10 damage and stunning for 1 second. While slashing, Nanaya has a LVL 2 shield.
+Additional info: If Nanaya has 10 or more mana, the skill is replaced with D2.
+Skill type: Ground targeted
+Damage type: Physical
+Skill level: 2
+Cast range: 700
+Maximum dash distance: 700
+Cooldown: 12s
 
-[G1] 【奥义】极死·七夜
-自身血量低于60％后才能发动。发动后0.5秒内若受到单次超过400点的伤害，后退半步单手压肩，全力掷出短刀的同时以灵活的身法拗断敌人的颈部，将其直接斩杀并清空所有连击数。|Cff00ff00
-技能类型：无目标
-技能冷却：200s
+D2 - Spider Step
 
-[G2] 【奥义】绝死·虚空
-0施展出七夜暗杀术的精髓，以灵活的身法与诡异的技巧压制敌人，逼迫对手暴露出破绽，并以神速绝杀，对敌人造成敏捷值*40的伤害和2秒眩晕。
-技能类型：单位目标
-伤害类型：物理伤害
-施法距离：150
-技能冷却：200s
+Description: Instantly become invisible for 1.5 seconds, during which you can right-click in any direction to teleport up to 900 units in that direction.
+Additional info: If Nanaya has 20 or more mana, this skill is replaced with D3.
+Skill type: Instant cast
+Cooldown: 8s
 
-[G3] 【觉醒】歌月十夜
-引发出七夜内心的杀人冲动，扭曲时间的概念使夜晚暂时降临，杀人鬼将在恐怖的夜晚游荡狩猎，技能持续40秒。
-  ①：发动后使自身恢复100％的生命值与3划令咒，并且会刷新“虚数潜航”/“灵子转移”/“魔力放出”与基础技能的冷却时间。
-　②：将时间暂时固定在午夜，使自身增加100点移动速度并强化Q/W/E技能。
-技能类型：无目标
-技能冷却：260s
+D3 - Eyes of a Killer
 
-[G4] 【奥义】七夜·闪影斩
-展现出七夜暗杀术的精髓，以鬼魅的姿态与华丽的技巧处以斩刑，对敌人造成敏捷值*40的伤害和2秒眩晕。
-技能类型：单位目标
-伤害类型：物理伤害
-施法距离：150
-技能冷却：200s
+Description: A passive buff to Nanaya's abilities.
+①: R will be cast by an afterimage.
+②: Reveals nearby invisible units and empowers Q/W/E.
+③: Deal increased damage to enemies below 50% HP.
+④: After casting any skill, you can right click in any direction for 0.5 seconds to instantly teleport up to 350 units in that direction.
+Skill type: Passive
+Reveal area of effect: 1500
+
+F1 - Quick Hell
+
+Description: Dash forward in the targeted direction, any enemies you dash through will receive AGIx14 damage and become stunned for 2 seconds. For a short while after casting, you have the option to cast F again to instantly teleport back to your original location.
+Additional info: If Nanaya has 15 or more mana, replace this skill with F2.
+Skill type: Ground targeted
+Damage type: Physical
+Skill level: 2
+Cast range: 1400
+Maximum dash range: 1400
+Cooldown: 16s
+
+F2 - Shining Sheath
+
+Description: Slash the target multiple times with the help of an afterimage, dealing AGIx16 damage and stunning for 1.5 seconds. During his own slashes, Nanaya has a LVL2 shield.
+Additional info: If Nanaya has 25 or more mana, this skill is replaced by F3.
+Skill type: Single target
+Damage type: Physical
+Cast range: 150
+Cooldown: 24s
+
+F3 - The Lost Gate of Sand
+
+Description: Jump back slightly from the targeted area and slow anyone in it by 80% for 1.75 seconds. After which Nanaya slowly dashes towards the area, becoming untargetable and dealing AGIx18 damage to the first target he collides with and stunning them for 2 seconds.
+Skill type: Ground targeted
+Damage type: Physical
+Cast range: 450
+Maximum dash range: 1000
+Affected area: 700 (for the slow)/400 (area of the dash impact).
+Cooldown: 36s
+
+T - Hunter in the Night
+
+Description: A passive buff to Nanaya's abilities.
+①: Improves turn rate when casting abilities. Additionally Nanaya won't leave a corpse upon death.
+②: For every damage instance inflected on enemies, you gain 1 mana with a cooldown of 0.05 seconds. If Nanaya does not inflict any damage for 5 seconds, his mana counter is reset to 0.
+③: At night, Nanaya gains 15 bonus AGI and 200 bonus movement speed. Additionally killing an enemy at night will refresh the cooldown of all skills.
+Skill type: Passive
+
+
+G1 - Extreme Death
+
+Description: Can only be activated when below 60% HP. If you suffer a damage instance of 400 or higher within a 0.5 second window, instantly kill the enemy that the damage originated from.
+Skill type: Instant cast
+Cooldown: 200s
+
+G2 - Deadly Void
+
+Description: Deal AGIx40 damage and stun the enemy for 2 seconds after a 12 second animation.
+Skill type: Single target
+Damage type: Physical
+Cast range: 150
+Cooldown: 200s
+
+G3 - Nightmare Unleashed
+
+Description: After a 13 second animation, Nanaya becomes greatly empowered and has his F2 completely refreshed.
+①: Restores Nanaya to full HP. Resets all cooldownds in F2 and grants 3 additional mana.
+②: Sets the time to night for the duration. Increases movement speed by 100 and empowers Q/W/E. Additionally you receive the benifits of D3's 4th point, regardless of mana.
+Additional info: Comes with good music for the duration.
+Skill type: Instant cast
+Cooldown: 200s
+
+G4 - Timeout Corner
+
+Description: Same effect as G1, except with a 23 second animation.
+Skill type: Single target
+Damage type: Physical
+Cast range: 150
+Cooldown: 200s
