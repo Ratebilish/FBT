@@ -1,78 +1,77 @@
-Название скилла=草攻剑(Q)
-Описание скилла=以波涛汹涌的剑术压制敌人，发动时会按照①/②/③的顺序先后触发。
-　①：若目标处于眩晕状态，连续刺向死角处，对敌人造成敏捷值*17的伤害和1.5秒眩晕。
-　②：自身血量≤40％时，瞬间斩向死角并触发③效果，对敌人造成敏捷值*14的伤害和1.5秒眩晕。
-　③：指挥场上的新选组队士进行突击，在6秒内增加新选组队士100％的攻击速度与200点移动速度，若目标死亡将返回旗帜继续守护。
-技能类型：单位目标
-伤害类型：物理伤害
-施法距离：1200
-技能冷却：8s
+Skill name=Demon king slashing blow (Q)
+Skill description=Suppress the enemy with turbulent swordsmanship. When activated, it will trigger one of the following 3 effects. ①/②/③.
+　①: If the target is stunned, continuously stab them, dealing *17 agility and stunning them for 1.5 seconds.
+　②: When okita's health is less than or equal to 40%, she instantly jumps behind the enemy triggering the ③ effect, dealing *14 agility and stunning them for 1.5 seconds.
+　③: Command goblins on the field to carry out an assault. Within 6 seconds, increase the goblins' attack speed by 100% and 200 points of movement speed. If the target dies, they will return to the flag and continue to guard.
+Skill type: Single target
+Damage type: physical damage
+Casting distance: 1200
+Skill cooldown: 8s
 
-Название скилла=急云剑(W)
-Описание скилла=迅速后退并移动至死角进行突刺，对穿过的敌人造成敏捷值*12的伤害和1.5秒眩晕，后退期间自身无法被选中。
-技能类型：地面目标
-伤害类型：物理伤害
-物理等级：LV2
-施法距离：1200
-最大距离：900
-技能冷却：12s
+Skill name=Flying furious lightning breaker (W)
+Skill description=Quickly retreat and attack from a blind spot, inflicting agility *12 and stunning for 1.5 seconds on enemies passing through. During the retreat, you cannot be selected (projectile evasion?).
+Skill type: ground target
+Damage type: physical damage
+Physical level: LV2
+Casting distance: 1200
+Maximum distance: 900
+Skill cooldown: 12s
 
-Название скилла=平突刺(E)
-Описание скилла=以神速向前方突刺，对穿过的敌人造成敏捷值*12的伤害和1.5秒眩晕。若突刺被抵挡或击空，可在2秒内追加“神速”。
-　[平青眼]：架起刀刃指向对手左眼的中段，提升物理等级与最大距离。每蓄力0.3秒会增加敏捷值*3的伤害，蓄满1.8秒或再次激活会向前方进行突刺，使穿过的敌人停止1秒后受到敏捷值*8的伤害和2.5秒眩晕。
-技能类型：地面目标
-伤害类型：物理伤害
-物理等级：LV2/LV3
-施法距离：全图
-最大距离：900/1600
-技能冷却：9s
+Skill name=Unstoppable shinsengumi diamond thruster (E)
+Skill description=Stabs forward at great speed, causing damage equal to *12 agility and stunning for 1.5 seconds to enemies passing through. If the stab is stopped or was missed, you can use the "Almighty back hop" for 2 seconds.
+　[Dragonpiercer]: Raise the blade to point to the middle of the opponent's left eye to increase the physical level and maximum distance. Every 0.3 seconds of charging will increase the damage by Agility*3. When charged for 1.8 seconds or when reactivating, okita stabs forward, stopping the passing enemy for 1 second and dealing Agility*8 and stunning for 2.5 seconds.
+Skill type: ground target
+Damage type: physical damage
+Physical grade: LV2/LV3
+Casting distance: full map
+Maximum distance: 900/1600
+Skill cooldown: 9s
 
-Название скилла=神速(E-E)
-Описание скилла=迅速后退450码并获得1点技巧，后退期间自身无法被选中。
-技能类型：无目标
-技能冷却：0s
+Skill name=Almighty back hop ​​(E-E)
+Skill description=Quickly retreat 450 yards and gain 1 mana. During the retreat, you cannot be selected (projectile evasion?).
+Skill type: Click
+Skill cooldown: 0s
 
 
-Название скилла=誓言的羽织(R)
-Описание скилла=蓄力0.8秒后解放羽织，将能力参数与武装进行升华，技能持续8秒。
-　①：“平突刺”可触发“平青眼”效果。
-　②：自身增加2点技巧上限并获得1点技巧。
-　③：自身增加5点敏捷值，发动时每损失10％的最大生命值就会额外增加5点敏捷值。
-技能类型：无目标
-技能冷却：24s
+Skill name=Haori of Oath (R)
+Skill description=After 0.8 seconds of charging, Yuori is released, and the ability parameters are sublimated, Okita is ready to kick ass. The skill lasts for 8 seconds.
+　①: "Unstoppable shinsengumi diamond thruster" can trigger the "Dragonpiercer" effect.
+　②: Increase the mana limit by 2 points and gain 1 mana.
+　③: Increases agility by 5, and for every 10% of missing health, gain another extra 5 agility.
+Skill type: Click
+Skill cooldown: 24s
 
-Название скилла=病弱 (D)
-Описание скилла=先天性的不经打、虚弱体质，身体承受了近似乃“无辜的怪物”的诅咒，高强度的战斗会导致身体无法承受。
-　①：自身血量≥60％时，增加10点敏捷值并使移动速度最大化，若“急云剑”没击中敌人将会引发肺痨，损失15％的当前生命值并眩晕1.5秒。
-　②：自身血量≤40％时，增加15％所受到的伤害并使“诚之旗”的影响范围扩大至全图，若自身击杀敌方英雄会减少“奥义”/“觉醒”50秒冷却时间。
-技能类型：被动效果
+Skill name=Cancer (D)
+Skill description=Okita is dying of cancer.
+　①: When health is ≥60%, increase agility by 10 points and maximize movement speed. If the "Flying furious lightning breaker" does not hit the enemy, it will cause tuberculosis, lose 15% of current health and get stunned for 1.5 seconds.
+②: When self blood volume ≤ 40%, increase the damage received by 15% and expand the influence of "Goblin Aid" to the entire map. Killing any hero will reduce the cooldown of ''Demon Sprint Strike Throatslicer'' cooldown by 50 seconds
+Skill type: passive effect
 
-Название скилла=缩地(F)
-Описание скилла=将步法、身法、呼吸、死角等许多现象紧密结合，瞬间拉近和对手间距离的技术。
-　[被动]：任意技能击中敌人会获得1点技巧，可通过A键消耗1点技巧进行最多400码的瞬移，最多储存2点技巧。
-　[主动]：展开心眼感知周围的攻击，在0.6秒内闪避单次≥200点的伤害并解除控制效果，随后以神速斩向伤害来源颈部，将周围的敌人向外击退并造成敏捷值*12的伤害和1.5秒眩晕。
-技能类型：无目标
-伤害类型：物理伤害
-防御等级：LV2
-影响范围：450
-技能冷却：12s
+Skill name= Windcutting shinsengumi footwork(F)
+Skill description=A technology that closely combines many phenomena such as footwork, bodywork, breathing, and focus, instantly shortening the distance between the opponent and Okita.
+　[Passive; Sonic blink]: Any skill that hits the enemy will provide okita with 1 mana. You can use the A key to consume 1 mana to teleport up to 400 yards, and store up to 2 mana points.
+[Active; KOI]: Expand the mind and eye to perceive the surrounding attacks, dodge a single damage of ≥200 points within 0.6 seconds and approach the enemy from behind, slashing at the neck of the source of damage with swift speed, knocking the surrounding enemies outward and dealing agility *12 damage and 1.5 seconds of stun.
+Skill type: Click
+Damage type: physical damage
+Defense level: LV2
+Range of influence: 450
+Skill cooldown: 12s
 
-Название скилла=诚之旗(T)
-Описание скилла=蓄力1.2秒后将新选组的旗帜插入地面，在旗帜范围内召唤出5名守护旗帜的新选组队士，队士拥有400点攻击力并处于灵体状态，旗帜持续20秒。
-　[诚一文字]：发动时会使周围的友方“新选组”英雄以50％的血量复活。
-技能类型：无目标
-影响范围：2000
-技能冷却：80s
+Skill name=Goblin Aid (T)
+Skill description=After charging for 1.2 seconds, insert the flag of the goblin crew into the ground, and summon 5 goblins who guard the flag within the flag range. The group members have 400 attack power and are in the spirit state (cannot be hit). The flag lasts for 20 second.
+Skill type: Click
+Scope of influence: 2000
+Skill cooldown: 80s
 
-Название скилла=【奥义】无明三段突(G)
-Описание скилла=运用缩地与敌人拉开距离，依靠无与伦比的速度与技巧施展出必杀魔剑，剑尖局部所引发的“事象崩坏”会对敌人造成敏捷值*40的伤害和2秒眩晕。
-技能类型：单位目标
-伤害类型：物理伤害
-施法距离：150
-技能冷却：200s
+Skill name=[The Profound Meaning] Demon Sprint Strike Throatslicer (G)
+Skill description=Use Shuchi to keep a distance from the enemy, and use unparalleled speed and skill to display the killing magic sword. The "crash" caused by the part of the sword tip will cause damage to the enemy equal to agility *40 and a stun of 2 seconds. .
+Skill type: single target
+Damage type: physical damage
+Casting range: 150
+Skill cooldown: 200s
 
-Art:
-Описание=冲田总司生前所佩戴的打刀。
-　①：事象饱和（奥义）：获得奥义技能：无明三段突。
-　②：步法极致（被动）：自身增加1点技巧上限。
-　③：神速之剑（被动）：“急云剑”发动后获得1点技巧。
+Art:Pineapple blade
+Description=The knife worn by Soji Okita during his lifetime.
+　①: Saturation of events (Profound meaning):Unlocks [The Profound Meaning] Demon Sprint Strike Throatslicer (G)
+　②: Sonic blink (passive): Increase the skill limit by 1 point.
+　③: Sword of Speed ​​(Passive): Gain 1 mana after missing "Flying furious lightning breaker".
