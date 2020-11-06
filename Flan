@@ -89,10 +89,10 @@ Cooldown: 30s
 
 Art - Flandre's Sword of Flame
 
-　①： Allows the usage of G. Single target skill that deals AGIx15 + 25% of the target's maximum HP as damage and stuns for 2 seconds with a 7 second animation (during which you are invulnerable). If the target dies from this skill, Flandre gains 3000 mana and has 2 mana restored to her F2.
 Skill type: Single target
 Damage type: Physical
 Cast range: 150
 Cooldown: 200s
+  ①： Allows the usage of G. Single target skill that deals AGIx15 + 25% of the target's maximum HP as damage and stuns for 2 seconds with a 7 second animation (during which you are invulnerable). If the target dies from this skill, Flandre gains 3000 mana and has 2 mana restored to her F2.
 　②： Flandre gains 25% lifesteal from all damage done.
 　③： Flandre gains 200 extra movement speed while a target is chained by E.
